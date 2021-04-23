@@ -24,3 +24,12 @@ The higher the predicted value the more likely that composition is going to win.
 
 The program further takes in 5 NEW champion values and predicts a win percentage.
 
+An example:
+Record 5 champions on each team for 100 games. Around 200 rows will be generated per summoner.
+
+We observe: ![image](https://user-images.githubusercontent.com/34112687/115840931-db785e80-a3e1-11eb-8308-74af5bef041a.png)
+
+a matrix of 376 x 5, where every column stores a champion encoding and every row contains 5 champions on a team.
+
+The model correctly predicted the result based on champions for around 65% of the time.
+Adding more summoners improves the perfomance because of data convergence.
