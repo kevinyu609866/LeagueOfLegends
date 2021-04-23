@@ -18,6 +18,7 @@ where [A,B,C,D,E] is the encoding of some champion.
 The model then learns on the stored data for the player[s] and calculates the strength, measured by probability of 'winning' based on those games used to train. 
 
 More details on the model is below:
+
 ![image](https://user-images.githubusercontent.com/34112687/115831242-f396b080-a3d6-11eb-87bc-d6ae12c3506f.png)
 
 where we apply softmax to the first and second dense layer, followed by sigmoid on the last dense layer: the result node to give us a value between 0-1, which can be interpretted as the likelihood of victory. 
