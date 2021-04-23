@@ -1,5 +1,3 @@
-# PersonalizedTierListByPlayer
-
 This program uses Riot Developer API for data. 
 
 Since champions are encoded with an ID, the decoding was used done using the following json file:
